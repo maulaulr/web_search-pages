@@ -4,27 +4,30 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>a search</title>
+        <link rel="stylesheet" type="text/css" href="static/reset.css">
+        <link rel="stylesheet" type="text/css" href="static/desktop.css">
     </head>
     <body>
         <header>
             <div>
-                <ul>
-                    <li>privacy</li>
-                    <li>social</li>
-                    <li>menu</li>
+                <ul class="flex-end">
+                    <li class="nav-items">privacy</li>
+                    <li class="nav-items">social</li>
+                    <li class="nav-items">menu</li>
                 </ul>
             </div>
         </header>
-        <section id="main">
+        <section id="main" class="center">
             <h1>search</h1>
             <form>
                 <input type="text" name="search-field">
                 <input type="submit" name="search" value="Go">
             </form>
+            <div class="footer-pusher"></div>
         </section>
-        <footer>
-            <div>
-                <p>about.</p>
+        <footer class="footer">
+            <div class="center">
+                <p>about</p>
             </div>
         </footer>
     </body>

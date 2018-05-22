@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+}
+
+.flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-items {
+    margin: 0 .2rem;
+}
+
+.center {
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: center;
+}
+
+#main {
+    min-height: 100%;
+    margin-bottom: -50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-pusher, .footer {
+    height: 50px;
+}
