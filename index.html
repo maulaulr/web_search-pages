@@ -4,30 +4,30 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>a search</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="static/reset.css">
         <link rel="stylesheet" type="text/css" href="static/desktop.css">
     </head>
     <body>
-        <header>
-            <div>
-                <ul class="flex-end">
-                    <li class="nav-items">privacy</li>
-                    <li class="nav-items">social</li>
-                    <li class="nav-items">menu</li>
-                </ul>
-            </div>
+        <header class="flex-between header-top">
+            <h1>search</h1>
+            <ul class="flex-end">
+                <li class="nav-items"><a href="#"><i class="fas fa-user-secret fa-lg"></i></a></li>
+                <li class="nav-items"><a href="#"><i class="far fa-paper-plane fa-lg"></i></a></li>
+                <li class="nav-items"><a href="#"><i class="fas fa-ellipsis-v fa-lg"></i></a></li>
+            </ul>
         </header>
         <section id="main" class="center">
-            <h1>search</h1>
-            <form>
-                <input type="text" name="search-field">
-                <input type="submit" name="search" value="Go">
+            <form class="search-form">
+                <input type="text" name="search-field" class="search-text" placeholder="search">
+                <input type="image" name="submit" src="static/search.png">
             </form>
             <div class="footer-pusher"></div>
         </section>
         <footer class="footer">
             <div class="center">
-                <p>about</p>
+                <a href="#">about</a>
             </div>
         </footer>
     </body>

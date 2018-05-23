@@ -1,5 +1,21 @@
 html, body {
     height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.flex-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .flex-end {
@@ -8,8 +24,12 @@ html, body {
     justify-content: flex-end;
 }
 
+.header-top {
+    padding: 1rem 1rem 0 1rem;
+}
+
 .nav-items {
-    margin: 0 .2rem;
+    margin: 0 0.8rem;
 }
 
 .center {
@@ -19,12 +39,29 @@ html, body {
 }
 
 #main {
-    min-height: 100%;
+    min-height: 92%;
     margin-bottom: -50px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-text {
+    margin-right: 0.8rem;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.search-text:focus {
+    outline: none;
 }
 
 .footer-pusher, .footer {
