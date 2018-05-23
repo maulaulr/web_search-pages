@@ -1,0 +1,5 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: bordero-box;
+    box-sizing: border-box;
+}
